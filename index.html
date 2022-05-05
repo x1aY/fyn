@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>To my girlfriend</title>	    
+		<title>To FYN</title>	    
         <link type="text/css" rel="stylesheet" href="./file/default.css">
 		<script type="text/javascript" src="./file/jquery.min.js"></script>
 		<script type="text/javascript" src="./file/jscex.min.js"></script>
@@ -23,24 +23,17 @@
             </audio>
             <div id="wrap">
                 <div id="text">
-                    <div id="code"> <font color="#FF0000"> 
-                        <span class="say">宝贝，这里是爱你的XY</span><br>
-                      <span class="say"> 我知道我不会甜言蜜语，</span><br>
-                      <span class="say"> 但是我会用行动证明一切</span><br>
-                      <span class="say">你说我啰嗦，</span><br>             
-                          <span class="say"> 有些东西因为越在乎所以越怕失去</span><br>
-                      <span class="say">因为我太爱你了，所以我害怕失去你</span><br>
-                      <span class="say">因为我太爱你了，所以我对你总啰嗦</span><br>
-                      <span class="say">希望可以执子之手，与子偕老</span><br>
-                      <span class="say"><span class="space"></span> -- XY</span> </font>
-                          <br />
-                          <br />
-                      </p>
+                    <div id="code" style="margin-top: 40%;"> <font size="4" color="#FF0000"> 
+                        <span class="say">宝贝，100天快乐！</span><br>
+                        <span class="say">享受和你视频的每天，</span><br>
+                        <span class="say">也期待着和你见面的那天~</span><br>
+                      <br>
+                      <span class="say"><span class="space"></span>2022/05/06</span> </font>
                     </div>
                   </div>
                 <div id="clock-box">
-                    <span class="STYLE1"></span><font color="#33CC00">XY&#128151;FYN</font>
-<span class="STYLE1">已经是……</span>
+                    <span class="STYLE1"></span><font size="6" color="#DC143C">XY💞FYN</font>
+<span class="STYLE1">&nbsp;&nbsp;for</span>
                   <div id="clock"></div>
               </div>
                 <canvas id="canvas" width="1100" height="680"></canvas>
@@ -179,12 +172,10 @@
 
         var textAnimate = eval(Jscex.compile("async", function () {
 		    var together = new Date();
-		    together.setFullYear(2022,1 , 27); 			//时间年月日
-		    together.setHours(21);						//小时	
-		    together.setMinutes(09);					//分钟
+		    together.setFullYear(2022,0,27); 			//时间年月日 月份从0开始
+		    together.setHours(0);						//小时	
+		    together.setMinutes(0);					//分钟
 		    together.setSeconds(0);					//秒前一位
-		    together.setMilliseconds(9);				//秒第二位
-
 		    $("#code").show().typewriter();
             $("#clock-box").fadeIn(500);
             while (true) {
