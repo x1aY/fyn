@@ -174,9 +174,9 @@
         var textAnimate = eval(Jscex.compile("async", function () {
 		    var together = new Date();
 		    together.setFullYear(2022,0,27); 			//时间年月日 月份从0开始
-		    together.setHours(0);						//小时	
-		    together.setMinutes(0);					//分钟
-		    together.setSeconds(0);					//秒前一位
+		    together.setHours(23);						//小时	
+		    together.setMinutes(59);					//分钟
+		    together.setSeconds(59);					//秒前一位
 		    $("#code").show().typewriter();
             $("#clock-box").fadeIn(500);
             while (true) {
